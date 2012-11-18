@@ -9,13 +9,13 @@ MODULE_LICENSE("GPL");
 
 static int __init hello_init(void)
 {
-    pr_info("miao?");
+    printk(KERN_INFO "●ω●");
     return 0;
 }
 
 static void __exit hello_exit(void)
 {
-    printk(KERN_INFO "bye miao(w\n");
+    printk(KERN_INFO "bye miao~ (w\n");
 }
 
 module_init(hello_init);
