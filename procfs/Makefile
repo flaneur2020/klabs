@@ -13,7 +13,7 @@ clean:
 	$(MAKE) -C $(KPATH) M=$(PWD) clean
 
 insmod: all
-	sudo rmmod procfs.ko
+	sudo rmmod procfs.ko; true
 	sudo insmod procfs.ko
 
 cat: insmod
