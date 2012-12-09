@@ -19,6 +19,4 @@ Check your kernel source's version, it may be not match with your running kernel
 
 ## References
 
-+ [Setup Ubuntu for Building Kernel Modules](1)
-
-[1]: http://dinomite.net/blog/2007/setting-up-ubuntu-for-building-kernel-modules/
++ [Setup Ubuntu for Building Kernel Modules](http://dinomite.net/blog/2007/setting-up-ubuntu-for-building-kernel-modules/)
